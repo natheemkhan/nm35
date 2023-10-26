@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Style the header */
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the main content area */
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Style the sections */
+.resume-section {
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for each section */
+    border: 1px solid #ccc; /* Gray border around each section */
+    padding: 20px; /* Add padding inside each section */
+}
+
+/* Style section headings */
+.resume-section h2 {
+    color: #007BFF;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style subsection headings */
+.resume-section h3 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Style the paragraph text */
+.resume-section p {
+    line-height: 1.5;
+}
+
+/* Style the button for viewing the resume */
+#viewResumeButton {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px
+}
+ nav ul {
+            list-style: none; /* Remove bullet points */
+            padding: 0;
+            display: flex; /* Display items in a row */
+            justify-content: center; /* Center align items */
+        }
+
+        nav li {
+            margin: 10px; /* Add some spacing between items */
+        }
